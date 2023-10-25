@@ -12,7 +12,7 @@ body {
 
 /* Hero section==================================================*/
 .hero {
-  background-image: background-image: url('cover.jpg'); 
+  background-image: url('cover.jpg'); 
   background-size: cover;
   background-position: center;
   color: white;
