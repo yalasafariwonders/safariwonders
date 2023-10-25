@@ -12,7 +12,7 @@ body {
 
 /* Hero section==================================================*/
 .hero {
-  background-image: url('https://www.srilankayalasafaris.com/uploads/7/2/3/0/7230455/published/s5.jpg'); /* Replace with your own image */
+  background-image: background-image: url('../cover.jpg'); /* Replace with your own image */
   background-size: cover;
   background-position: center;
   color: white;
