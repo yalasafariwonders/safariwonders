@@ -12,7 +12,7 @@ body {
 
 /* Hero section==================================================*/
 .hero {
-  background-image: background-image: url('../cover.jpg'); /* Replace with your own image */
+  background-image: background-image: url('cover.jpg'); 
   background-size: cover;
   background-position: center;
   color: white;
