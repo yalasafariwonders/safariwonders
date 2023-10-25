@@ -1,18 +1,26 @@
 /* Reset some default styles */
-body, h1, p {
+body, h1,h3, h4, p {
   margin: 0;
   padding: 0;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  text-align: center;
 }
+a {
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit text color from parent */
+  font-size: inherit; /* Inherit font size from the parent */
+}
+
 
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  
+  text-align: justify;
 }
 
 /* Hero section==================================================*/
 .hero {
-  background-image: url('cover.jpg'); 
+  background-image: url('cover.jpg');
   background-size: cover;
   background-position: center;
   color: white;
@@ -30,7 +38,7 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* About section====================================================*/
@@ -85,11 +93,20 @@ footer {
 .experience-card h3 {
   font-size: 1.5rem;
   margin: 10px 0;
+  text-align: justify;
+}
+
+.experience-card h4 {
+  font-size: 1.05rem;
+  margin: 8px 0;
+  text-align: justify;
+  margin-bottom: 12px;
 }
 
 .experience-card p {
   font-size: 1rem;
   margin: 5px 0;
+  text-align: justify;
 }
 
 
@@ -111,6 +128,16 @@ footer {
 
 .book-button:hover {
   background-color: #005f9a;
+}
+
+.custom-button {
+  background-color: #059c00; /* Set your desired background color */
+  color: #FFFFFF; /* Set your desired text color */
+  
+}
+
+.custom-button:hover {
+  background-color: #068002;
 }
 
 
@@ -142,10 +169,21 @@ h2 {
   margin: 0;
 }
 
+h4 {
+  color: #696666;
+}
+
 p {
   font-size: 1rem;
-  color: #888;
+  color: #807f7f;
   margin: 5px 0;
+  line-height: 1.1
+}
+
+.header-paragraph {
+  font-size: 1rem;
+  color: #b8b7b7;
+  text-align: center;
 }
 
 .price {
