@@ -61,6 +61,7 @@ footer {
   padding: 10px;
 }
 
+
 /* Styles for experience cards=====================================================*/
 .experience-cards {
   display: flex;
@@ -143,7 +144,7 @@ footer {
 
 
 
-/*Airbnb card layout==========================================================*/
+/*Card layout==========================================================*/
 /* styles.css */
 
 .card {
@@ -193,4 +194,86 @@ p {
 }
 
 
-/*==============Gallary=================================*/
+
+/*Newsbar========================*/
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #fff;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 1000px;
+}
+
+.newsbar {
+  background-color: #947EB0;
+  justify-content: center;
+  display: flex;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+.newsbar {
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 20px;
+
+
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(187, 163, 206, 1);
+  background-color: #fff;
+  padding: 5% 0;
+   border-radius: 20px;
+}
+
+
+.grid .text {
+  padding: 10px 20px 20px 30px;
+  color: #808285;
+  margin-bottom: 20px;  
+}
+
+.grid .btn {
+  margin-top: 20px;
+  background-color: #e0d4e9;
+    border: 0;
+    border-radius: 5px;
+    color: #000;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+  line-height: 5;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background: #d1d3d4;
+  transition-duration: 80ms;
+}
+
+.grid h3{ 
+  color: #000;
+  text-align: left;
+}
+
+
+.grid h4 {
+  text-align: left;
+}
+
+
+.grid p {
+  text-align: left;
+}
