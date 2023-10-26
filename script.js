@@ -11,7 +11,7 @@ document.addEventListener("click", function (e) {
 });
 
 
-/*Airbnb card layout==========================================================*/
+/*Cards layout==========================================================*/
 const cards = document.querySelectorAll(".card");
 
 cards.forEach((card) => {
@@ -23,3 +23,5 @@ cards.forEach((card) => {
     card.classList.remove("active");
   });
 });
+
+/*Gallery==========================================================*/
